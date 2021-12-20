@@ -1,0 +1,57 @@
+<style>
+
+.leftdiv {
+background-color:#5870cb;
+width: 340px;
+height: 800;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.rightdiv{
+background-color:whitesmoke;
+width: 1000;
+height: 800;    
+position: absolute;
+top: 0;
+left: 340px; 
+text-align: center;
+}
+.leftText
+{
+    color: white;
+}
+
+.Buttons
+{
+    background-color: lightblue;
+    position:unset;  
+    width: 130px;
+    height: 100px;
+    border-radius: 20;
+}
+</style>
+
+<html>
+    <div class="leftdiv">
+        <h1 class="leftText"> Home</h1><p>
+        <a href="Profilo_utente.html"><h1>Profilo</h1></a><p>
+        <h1 class="leftText"> Impostazioni</h1><p>
+        <h1 class="leftText"> Logout</h1>
+    </div>
+    <div class="rightdiv">
+        <br><br><br>
+        <h1>Benvenuto su ProjectHub!</h1>
+        <h2>Sembra tu non faccia ancora parte di un progetto.</h2> <br><br>
+
+        <div>
+            <form action="Ricerca_Progetti.html">
+                <button class="Buttons" type="submit">Unisciti a uno esistente </button>  
+            </form>
+            <form action="Creazione_Progetto.html">
+                <button class="Buttons" type="submit">Crea un nuovo progetto </button>  
+            </form>
+        </div>
+    </div>
+</html>

@@ -1,0 +1,52 @@
+<style>
+
+    .leftdiv {
+    background-color:#5870cb;
+    width: 340px;
+    height: 800;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    
+    .rightdiv{
+    background-color:whitesmoke;
+    width: 1000;
+    height: 800;    
+    position: absolute;
+    top: 0;
+    left:50 px;
+    left: 340px; 
+    }
+    .leftText
+    {
+        color: white;
+    }
+    
+    .Buttons
+    {
+        background-color: lightblue;
+        position:unset;  
+        width: 130px;
+        height: 100px;
+        border-radius: 20;
+    }
+    </style>
+    
+    <html>
+        <script src="server/data.js"></script>
+        <div class="leftdiv">
+            <a href="Pagina_NoProgetto.html"><h1>Home</h1></a><p>
+            <a href="Profilo_utente.html"><h1>Profilo</h1></a><p>
+            <h1 class="leftText"> Impostazioni</h1><p>
+            <h1 class="leftText"> Logout</h1>
+        </div>
+        <div class="rightdiv">
+            <form >
+                <label>Nome Progetto:</label> <input type="text" placeholder="Inserisci nome progetto..." name="nome" id="idNome"> <br><br>
+                <label>Descrizione: </h2> <input  type="text" placeholder="Desc..."   id="idDesc"></textarea><br><br>  
+                <label>Competenze Richieste: </h2> <input type="text" placeholder="Inserisci competenze..." name="comp" id="idComp"> <br><br>
+                <button onclick="inserisci()">Inserisci</button>
+            </form>
+        </div>
+    </html>
